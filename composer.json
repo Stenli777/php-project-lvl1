@@ -14,7 +14,7 @@
     "autoload": {
 	"files": [
 		"src/Cli.php",
-		"src/Enev.php"
+		"src/Even.php"
 ]
 },
     "require": {
