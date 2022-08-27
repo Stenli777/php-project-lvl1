@@ -24,7 +24,7 @@ function play()
     run(GAME_DESCRIPTION, $round);
 }
 
-function gcd($x, $y)
+function gcd(int $x, int $y): int
 {
-    return ($x % $y) ? gcd($y, $x % $y) : $y;
+    return (bool)($x % $y) ? gcd($y, $x % $y) : $y;
 }
