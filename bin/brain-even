@@ -15,4 +15,3 @@ if (file_exists($autoloadParth1)) {
 }
 
 game();
-
