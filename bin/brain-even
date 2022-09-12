@@ -3,7 +3,7 @@
 
 namespace Php\Project\Lvl1\Even;
 
-use function BrainGames\Even\game;
+use function BrainGames\Games\Even\play;
 
 $autoloadParth1 = __DIR__ . '/../../../autoload.php';
 $autoloadParth2 = __DIR__ . '/../vendor/autoload.php';
@@ -14,4 +14,4 @@ if (file_exists($autoloadParth1)) {
         require_once $autoloadParth2;
 }
 
-game();
+play();
